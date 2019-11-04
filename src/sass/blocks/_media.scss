@@ -1,0 +1,118 @@
+@media  (max-width : 1200px) {
+    .promo {
+        padding: 21px 0 93px 0;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 37px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .adventages {
+        padding: 55px 0 60px 0;
+        &__item {
+            width: 200px;
+        }
+
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        margin: 0 auto;
+    }
+    .promo {
+        min-height: 550px;
+        padding-bottom: 40px;
+        .header {
+            &::after {
+                content: '';
+                width: 100%;
+                height: 125px;
+                background-color: rgba(0, 0, 0, .1);
+                position: absolute;
+                top: 0;
+            }
+            display: block;
+            &__officiall {
+                span {
+                    font-size: 21px;
+                }
+            }
+            &__logo {
+                min-width: 20px;
+                max-width: 2000px;
+                display: none;
+            }
+            &__contacts {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 10px;
+                padding: 0 5px;
+            }
+            &__phone {
+                font-size: 17px;
+            }
+        }
+        &__wrapper {
+            margin-top: 35px;
+            align-items: center;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__icons {
+            margin-top: 25px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__icon {
+            width: 100px;
+            img {
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .adventages {
+        &__items {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__item {
+            margin-bottom: 30px;
+            width: 90%;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__short-title {
+            margin-top: 15px;
+        }
+    }
+    
+    .button {
+        width: 140px;
+        margin-top: 0;
+        &_main {
+            margin-top: 30px;
+            width: 250px;
+        }
+    }
+}
