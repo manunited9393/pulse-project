@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+    .button {
+        width: 125px;
+        &_main {
+            margin-top: 30px;
+            width: 250px;
+        }
+        &_submit {
+            margin: 20px auto 0 auto;
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .button {
+        width: 140px;
+        margin-top: 0;
+        &_main {
+            margin-top: 60px;
+            width: 250px;
+        }
+        &_submit {
+            margin: 20px auto 0 auto;
+            width: 85%;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 36px 0 0 0;
+        width: 100%;
+        input {
+            margin-left: auto;
+            margin-right: auto;
+            width: 85%;
+        }
+    }
+}
