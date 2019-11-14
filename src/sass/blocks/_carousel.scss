@@ -1,0 +1,15 @@
+.carousel {
+    .slide {
+        padding: 0;
+    }
+        position: relative;
+        padding: 81px 0 0 0;
+        .carousel-inner {
+            width: 650px;
+            margin: 0 auto;
+        }
+        .carousel-control-prev, .carousel-control-next {
+            opacity: 1;
+        }
+}
+
