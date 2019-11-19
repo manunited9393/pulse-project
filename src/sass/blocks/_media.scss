@@ -104,7 +104,7 @@
                 height: 125px;
                 background-color: rgba(0, 0, 0, .1);
                 position: absolute;
-                top: 0;
+                top: -20px;
             }
             display: block;
             &__officiall {
@@ -126,15 +126,16 @@
                 padding: 0 5px;
             }
             &__phone {
-                font-size: 17px;
+                font-size: 15px;
             }
         }
         &__wrapper {
-            margin-top: 90px;
+            margin-top: 50px;
             align-items: center;
         }
         &__header {
             font-size: 24px;
+            text-align: center;
         }
         &__subheader {
             font-size: 13px;
@@ -176,6 +177,27 @@
             font-size: 16px;
             text-align: center;
             width: 100%;
+        }
+    }
+    .carousel {
+        padding: 20px 0 70px 0;
+        .carousel-indicators {
+            margin: 0;
+            position: absolute;
+            bottom: -40px;
+            display: flex;
+            li {
+                background-color: red;
+            }
+        }
+        .carousel-inner {
+            width: 80%;
+            img {
+                max-width: 100%;
+            }
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            display: none;
         }
     }
 }
